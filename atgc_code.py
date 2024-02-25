@@ -49,7 +49,7 @@ for i in mainlist:
    i.append(other)
 ##print(mainlist)
 
-open("atgc_sorted", "w")
+
 for i in mainlist:
    f=open("atgc_sorted.txt", "a")
    print(i[0],end=" ")
